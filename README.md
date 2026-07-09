@@ -1,6 +1,7 @@
-# PROJET 4.2: Galerie 3 colonnes avec Grid INTERMÉDIAIRE
+# PROJET 4.2 : Galerie 3 colonnes avec Grid — INTERMÉDIAIRE
 
-Galerie de photos responsive en CSS Grid avec image mise en avant (2x2), overlay smooth, lightbox, filtres et pagination.
+**Description :** Créer une galerie de photos 3 colonnes avec une image mise en avant (plus grande).  
+**Durée estimée :** 4-5 heures
 
 ## Fonctionnalités
 
@@ -28,3 +29,12 @@ README.md
 | Desktop | Tablette | Mobile |
 |---------|----------|--------|
 | Grille 3 colonnes image vedette 2x2 | Grille 2 colonnes | Grille 1 colonne fluide |
+
+## Projets Connexes
+
+- [PROJET 4.1 : Navigation responsive avec Flexbox (EduBook)](https://github.com/babacleven/EduBook)
+- [PROJET 4.3 : Dashboard Admin Layout (Dashboard-Akieni)](https://github.com/babacleven/Dashboard-Akieni)
+
+## Auteur
+
+**BABA Aristote — Promotion Akieni Academy**
