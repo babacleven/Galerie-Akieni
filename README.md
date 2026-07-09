@@ -30,11 +30,6 @@ README.md
 |---------|----------|--------|
 | Grille 3 colonnes image vedette 2x2 | Grille 2 colonnes | Grille 1 colonne fluide |
 
-## Projets Connexes
-
-- [PROJET 4.1 : Navigation responsive avec Flexbox (EduBook)](https://github.com/babacleven/EduBook)
-- [PROJET 4.3 : Dashboard Admin Layout (Dashboard-Akieni)](https://github.com/babacleven/Dashboard-Akieni)
-
 ## Auteur
 
 **BABA Aristote — Promotion Akieni Academy**
