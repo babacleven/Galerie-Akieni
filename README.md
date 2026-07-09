@@ -1,5 +1,6 @@
-# PROJET 4.2 : Galerie 3 colonnes avec Grid — INTERMÉDIAIRE
+# PROJET 4.2 : Galerie 3 colonnes avec Grid
 
+**Niveau :** INTERMÉDIAIRE  
 **Description :** Créer une galerie de photos 3 colonnes avec une image mise en avant (plus grande).  
 **Durée estimée :** 4-5 heures
 
@@ -32,4 +33,4 @@ README.md
 
 ## Auteur
 
-**BABA Aristote — Promotion Akieni Academy**
+**BABA Aristote Promotion Akieni Academy**
