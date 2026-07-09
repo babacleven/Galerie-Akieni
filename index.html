@@ -1,166 +1,159 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Galerie - Akieni Academy</title>
-    <link rel="stylesheet" href="galerie.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <h1>Galerie <span>Akieni </span>Academy</h1>
-        <p>Découvrez les moments forts de notre communauté</p>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galerie - Akieni Academy</title>
+  <link rel="stylesheet" href="galerie.css" />
+</head>
+<body>
 
-    <main class="container">
-      <div class="filters">
-        <button class="filter-btn active" data-filter="all">Tous</button>
-        <button class="filter-btn" data-filter="evenements">Événements</button>
-        <button class="filter-btn" data-filter="paysages">Paysages</button>
-        <button class="filter-btn" data-filter="portraits">Portraits</button>
-      </div>
+  <header class="header">
+    <div class="container">
+      <h1>Galerie <span>Akieni Academy</span></h1>
+      <p>Découvrez les moments forts de notre communauté</p>
+    </div>
+  </header>
 
-      <div class="gallery" id="gallery">
-<figure class="gallery-item featured" data-category="evenements">
-        <img src="images/Akieni_evenement.jpg" alt="Événement Akieni Academy" loading="lazy">
-        <figcaption class="overlay">
-          <h3>Retenez ces visages</h3>
-          <p>Ils incarnent une génération qui a fait le choix d'agir. Arrivés avec des questions et parfois des doutes, ils repartent aujourd'hui avec des compétences, de la confiance et une ambition claire. Ce sont plus de 30 jeunes dont le potentiel s'est transformé en résultats concrets. AKIENI ACADEMY ne forme pas seulement des profils. Nous révélons des talents.</p>
-        </figcaption>
+  <main class="container">
+
+    <div class="filters">
+      <label class="filter-btn active-filter" for="filter-all">
+        <input type="radio" name="filter" id="filter-all" value="all" checked hidden>Tous
+      </label>
+      <label class="filter-btn" for="filter-evenements">
+        <input type="radio" name="filter" id="filter-evenements" value="evenements" hidden>Événements
+      </label>
+      <label class="filter-btn" for="filter-paysages">
+        <input type="radio" name="filter" id="filter-paysages" value="paysages" hidden>Paysages
+      </label>
+      <label class="filter-btn" for="filter-portraits">
+        <input type="radio" name="filter" id="filter-portraits" value="portraits" hidden>Portraits
+      </label>
+    </div>
+
+    <div class="gallery">
+
+      <figure class="gallery-item featured evenements">
+        <a href="#img1">
+          <img src="images/Akieni_evenement.jpg" alt="Événement Akieni Academy" loading="lazy" />
+          <figcaption class="overlay">
+            <h3>Retenez ces visages</h3>
+            <p>Ils incarnent une génération qui a fait le choix d'agir.</p>
+          </figcaption>
+        </a>
       </figure>
 
-        <figure class="gallery-item" data-category="paysages">
-          <img
-            src="images/brazzaville_vue_panoramique_sur_le_fleuve.jpg"
-            alt="Vue panoramique sur le fleuve Brazzaville"
-            loading="lazy"
-          />
+      <figure class="gallery-item paysages">
+        <a href="#img2">
+          <img src="images/brazzaville_vue_panoramique_sur_le_fleuve.jpg" alt="Vue panoramique Brazzaville" loading="lazy" />
           <figcaption class="overlay">
             <h3>Brazzaville</h3>
             <p>Vue panoramique sur le fleuve</p>
           </figcaption>
-        </figure>
+        </a>
+      </figure>
 
-        <figure class="gallery-item" data-category="portraits">
-          <img
-            src="images/coordonateur_data_science.jpg"
-            alt="Coordinateur pédagogique"
-            loading="lazy"
-          />
+      <figure class="gallery-item portraits">
+        <a href="#img3">
+          <img src="images/coordonateur_data_science.jpg" alt="Coordinateur pédagogique" loading="lazy" />
           <figcaption class="overlay">
             <h3>Coordinateur pédagogique</h3>
-            <p>Pilotage pédagogique et accompagnement d'une cohorte de 200+ apprenants sur le parcours Fullstack Development. Suivi individualisé, détection des risques de décrochage, animation des stand-ups, coordination avec les mentors, dashboards de suivi, analyse des données pédagogiques, accompagnement technique et amélioration continue.</p>
+            <p>Pilotage pédagogique et accompagnement d'une cohorte de 200+ apprenants.</p>
           </figcaption>
-        </figure>
+        </a>
+      </figure>
 
-        <figure class="gallery-item" data-category="portraits">
-          <img
-            src="images/Frederic3.png"
-            alt="Frédéric NZE - Fondateur"
-            loading="lazy"
-          />
+      <figure class="gallery-item portraits">
+        <a href="#img4">
+          <img src="images/Frederic3.png" alt="Frédéric NZE" loading="lazy" />
           <figcaption class="overlay">
             <h3>Frédéric NZE</h3>
             <p>Fondateur et Directeur Général</p>
           </figcaption>
-        </figure>
+        </a>
+      </figure>
 
-        <figure class="gallery-item" data-category="portraits">
-          <img
-            src="images/coodornateur_fullstack.png"
-            alt="Coordinateur pédagogique"
-            loading="lazy"
-          />
+      <figure class="gallery-item portraits">
+        <a href="#img5">
+          <img src="images/coodornateur_fullstack.png" alt="Coordinateur pédagogique" loading="lazy" />
           <figcaption class="overlay">
             <h3>Coordinateur pédagogique</h3>
-            <p>Pilotage pédagogique et accompagnement d'une cohorte de 200+ apprenants sur le parcours Fullstack Development. Suivi individualisé, détection des risques de décrochage, animation des stand-ups, coordination avec les mentors, dashboards de suivi, analyse des données pédagogiques, accompagnement technique et amélioration continue.</p>
+            <p>Accompagnement Fullstack Development</p>
           </figcaption>
-        </figure>
+        </a>
+      </figure>
 
-        <figure class="gallery-item" data-category="portraits">
-          <img
-            src="images/Lepres KIKOUNGA.png"
-            alt="Lepres KIKOUNGA - Engineering Manager"
-            loading="lazy"
-          />
+      <figure class="gallery-item portraits">
+        <a href="#img6">
+          <img src="images/Lepres KIKOUNGA.png" alt="Lepres KIKOUNGA" loading="lazy" />
           <figcaption class="overlay">
             <h3>Lepres KIKOUNGA</h3>
             <p>Senior Engineering Manager</p>
           </figcaption>
-        </figure>
+        </a>
+      </figure>
 
-        <figure class="gallery-item" data-category="evenements">
-          <img
-            src="images/Hackathon.jpg"
-            alt="Hackathon Akieni"
-            loading="lazy"
-          />
+      <figure class="gallery-item evenements">
+        <a href="#img7">
+          <img src="images/Hackathon.jpg" alt="Hackathon Akieni" loading="lazy" />
           <figcaption class="overlay">
             <h3>Hackathon</h3>
-            <p>48H pour innover, créer, repousser les limites. Du 14 au 15 mai, Akieni Academy réunit ses talents pour un défi unique à OSIANE 2025. Deux jours d'intensité, de code, d'échanges et d'idées tournées vers l'avenir. Une énergie à ne pas manquer.</p>
+            <p>48H pour innover, créer, repousser les limites.</p>
           </figcaption>
-        </figure>
+        </a>
+      </figure>
 
-        <figure class="gallery-item" data-category="evenements">
-          <img
-            src="images/formation.jpg"
-            alt="Formation Akieni Academy"
-            loading="lazy"
-          />
+      <figure class="gallery-item evenements">
+        <a href="#img8">
+          <img src="images/formation.jpg" alt="Formation Akieni Academy" loading="lazy" />
           <figcaption class="overlay">
             <h3>Bâtir des carrières</h3>
-            <p>Pas juste des compétences. Chez Akieni Academy, nous vous préparons à un avenir numérique solide en vous offrant une formation qui va au-delà du savoir-faire afin de relever les défis du digital et transformer le secteur public et privé au Congo et en Afrique.</p>
+            <p>Pas juste des compétences. Une formation au-delà du savoir-faire.</p>
           </figcaption>
-        </figure>
+        </a>
+      </figure>
 
-        <figure class="gallery-item" data-category="evenements">
-          <img
-            src="images/Akieni_evenement4.jpg"
-            alt="Cérémonie Akieni"
-            loading="lazy"
-          />
+      <figure class="gallery-item evenements">
+        <a href="#img9">
+          <img src="images/Akieni_evenement4.jpg" alt="Cérémonie Akieni" loading="lazy" />
           <figcaption class="overlay">
             <h3>Cérémonie</h3>
             <p>Célébration de la promotion</p>
           </figcaption>
-        </figure>
+        </a>
+      </figure>
 
-        <figure class="gallery-item" data-category="evenements">
-          <img
-            src="images/Akieni_evenement5.jpg"
-            alt="Remise des diplômes Akieni"
-            loading="lazy"
-          />
+      <figure class="gallery-item evenements">
+        <a href="#img10">
+          <img src="images/Akieni_evenement5.jpg" alt="Remise des diplômes" loading="lazy" />
           <figcaption class="overlay">
             <h3>Remise des diplômes</h3>
             <p>Célébration de la promotion</p>
           </figcaption>
-        </figure>
+        </a>
+      </figure>
 
-        <div class="pagination">
-          <button class="page-btn active" data-page="1">1</button>
-          <button class="page-btn" data-page="2">2</button>
-        </div>
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <p>
-          &copy; <span id="displayYear"></span> Akieni Academy — Galerie CSS
-          Grid
-        </p>
-      </div>
-    </footer>
-
-    <div class="lightbox" id="lightbox">
-      <button class="lightbox-close" aria-label="Fermer">&times;</button>
-      <img src="" alt="" class="lightbox-img" />
-      <div class="lightbox-caption"></div>
     </div>
 
-    <script src="galerie.js"></script>
-  </body>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="displayYear"></span> Akieni Academy — Galerie CSS Grid</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="light1"></div>
+  <div class="lightbox" id="light2"></div>
+  <div class="lightbox" id="light3"></div>
+  <div class="lightbox" id="light4"></div>
+  <div class="lightbox" id="light5"></div>
+  <div class="lightbox" id="light6"></div>
+  <div class="lightbox" id="light7"></div>
+  <div class="lightbox" id="light8"></div>
+  <div class="lightbox" id="light9"></div>
+  <div class="lightbox" id="light10"></div>
+
+</body>
 </html>
